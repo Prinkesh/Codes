@@ -1,12 +1,14 @@
 #!/usr/bin/env python
-
-### LIBRARIES NEEDED numpy , pylab (matplotlib)
-###
-###
-### A Perceptron classifier to simulate Boolean Logic , 
-### All linearly seperable Boolean logics can be simulated by this perceptron depending upon the training data
-### training data used here is for simulating AND Boolean Logic
-
+#######################################################################################################################
+### Author : Prinkesh Sharma                                                                                        ###
+#######################################################################################################################
+### LIBRARIES NEEDED numpy , pylab (matplotlib)                                                                     ###
+###                                                                                                                 ###
+###                                                                                                                 ###
+### A Perceptron classifier to simulate Boolean Logic ,                                                             ###
+### All linearly seperable Boolean logics can be simulated by this perceptron depending upon the training data      ###
+### training data used here is for simulating AND Boolean Logic                                                     ###
+#######################################################################################################################
 
 from pylab import * # For plotting the error during Training Phase
 from random import choice # For randomly choosing a data from training_data
